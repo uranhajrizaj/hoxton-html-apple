@@ -300,6 +300,29 @@ footer a {
 details > summary {
   list-style: none;
 }
+.copyright {
+  padding: 20px 16rem;
+  background-color: #f5f5f7;
+  display: grid;
+  place-items: start;
+}
+.copyright a {
+  text-decoration: none;
+  color: inherit;
+}
+.more-ways-shop a {
+  color: #5296da;
+}
+.more-ways {
+  padding: 10px;
+  border-bottom: 1px solid #00000040;
+}
+.copyright-menu {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 5px;
+  gap: 10px;
+}
 
 @media screen and (max-width: 950px) {
   footer {
@@ -308,6 +331,9 @@ details > summary {
   }
   .information {
     padding: 10px;
+  }
+  .copyright {
+    padding: 5px;
   }
 
   .footer-mobile {
